@@ -1,0 +1,13 @@
+{"_id":{"$oid":"5e6f7c77bf6dfe07fcc3a11e"},"marketplace":false,"user_id":1111,"date":{"$date":"2020-03-19T00:00:00Z"},"shifts_type_id":2222,"updated":{"$date":"2020-03-16T13:17:43.393Z"},"__v":0}
+{"_id":{"$oid":"5e6f7c7fbf6dfe07fcc3a11f"},"marketplace":false,"user_id":22222,"date":{"$date":"2020-03-25T00:00:00Z"},"shifts_type_id":333333,"updated":{"$date":"2020-03-16T13:17:51.112Z"},"__v":0}
+{"_id":{"$oid":"5e6f7c87bf6dfe07fcc3a120"},"marketplace":false,"user_id":33333,"date":{"$date":"2020-03-18T00:00:00Z"},"shifts_type_id":4444444,"updated":{"$date":"2020-03-16T13:17:59.932Z"},"__v":0}
+{"_id":{"$oid":"5e6f82f8bf6dfe07fcc3a121"},"marketplace":false,"user_id":4444,"date":{"$date":"2020-03-25T00:00:00Z"},"shifts_type_id":5555,"updated":{"$date":"2020-03-16T13:45:28.478Z"},"__v":0}
+{"_id":{"$oid":"5e6f8311bf6dfe07fcc3a122"},"marketplace":false,"user_id":5555,"date":{"$date":"2020-03-26T00:00:00Z"},"shifts_type_id":66666,"updated":{"$date":"2020-03-16T13:45:53.863Z"},"__v":0}
+{"_id":{"$oid":"5e6f8335bf6dfe07fcc3a124"},"marketplace":false,"user_id":666666,"date":{"$date":"2020-03-17T00:00:00Z"},"shifts_type_id":7777,"updated":{"$date":"2020-03-16T13:46:29.917Z"},"__v":0}
+{"_id":{"$oid":"5e6f8347bf6dfe07fcc3a125"},"marketplace":false,"user_id":77777,"date":{"$date":"2020-03-19T00:00:00Z"},"shifts_type_id":6666,"updated":{"$date":"2020-03-16T13:46:47.435Z"},"__v":0}
+{"_id":{"$oid":"5e6f8356bf6dfe07fcc3a126"},"marketplace":false,"user_id":8888,"date":{"$date":"2020-03-27T00:00:00Z"},"shifts_type_id":9999,"updated":{"$date":"2020-03-16T13:47:02.835Z"},"__v":0}
+{"_id":{"$oid":"5e6f8363bf6dfe07fcc3a127"},"marketplace":false,"user_id":9999,"date":{"$date":"2020-03-26T00:00:00Z"},"shifts_type_id":99999,"updated":{"$date":"2020-03-16T13:47:15.064Z"},"__v":0}
+{"_id":{"$oid":"5e6f8378bf6dfe07fcc3a128"},"marketplace":false,"user_id":101011010,"date":{"$date":"2020-03-26T00:00:00Z"},"shifts_type_id":101010,"updated":{"$date":"2020-03-16T13:47:36.717Z"},"__v":0}
+{"_id":{"$oid":"5e6f838bbf6dfe07fcc3a129"},"marketplace":false,"user_id":110110110,"date":{"$date":"2020-03-19T00:00:00Z"},"shifts_type_id":110100,"updated":{"$date":"2020-03-16T13:47:55.79Z"},"__v":0}
+{"_id":{"$oid":"5e6f839bbf6dfe07fcc3a12a"},"marketplace":false,"user_id":1212121212,"date":{"$date":"2020-03-24T00:00:00Z"},"shifts_type_id":131313,"updated":{"$date":"2020-03-16T13:48:11.246Z"},"__v":0}
+{"_id":{"$oid":"5e6f83cfbf6dfe07fcc3a12c"},"marketplace":false,"user_id":1313131,"date":{"$date":"2020-03-26T00:00:00Z"},"shifts_type_id":141414,"updated":{"$date":"2020-03-16T13:49:03.527Z"},"__v":0}
