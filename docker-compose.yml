@@ -24,7 +24,7 @@ kitab-mysql:
     - MYSQL_PASSWORD=${MYSQL_PASSWORD}
 
 kitab-nginx:
-  image: phpdockerio/nginx:latest
+  image: nginx:alpine
   container_name: kitab-nginx
   volumes:
       - ..:/var/www/kitab
