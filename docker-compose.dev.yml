@@ -6,3 +6,8 @@ services:
     container_name: kitab-mailhog
     ports:
       - "8125:8025"
+
+ kitab-mongo:
+    volumes:
+        - ../mongodb-dev:/data/db
+        - ./mongo/dev:/docker-entrypoint-initdb.d
