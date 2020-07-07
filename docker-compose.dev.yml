@@ -1,27 +1,34 @@
-###############################################################################
-#                          Generated on phpdocker.io                          #
-###############################################################################
+version: '3.1'
 
-kitab-mailhog:
-  image: mailhog/mailhog:latest
-  container_name: kitab-dev-mailhog
-  ports:
-    - "8125:8025"
+services:
+  kitab-mailhog:
+    image: mailhog/mailhog:latest
+    container_name: kitab-dev-mailhog
+    ports:
+      - "8125:8025"
 
-kitab-mysql:
-  container_name: kitab-dev-mysql
-  volumes:
-      - ../sql/dev:/docker-entrypoint-initdb.d
-  ports:
-    - "9106:3306"
+  kitab-phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: kitab-dev-phpmyadmin
+    ports:
+      - "9181:80"
+    links:
+      - kitab-mysql
 
-kitab-nginx:
-  container_name: kitab-dev-nginx
-  ports:
-   - "9180:80"
+  kitab-mysql:
+    container_name: kitab-dev-mysql
+    volumes:
+        - ../sql/dev:/docker-entrypoint-initdb.d
+    ports:
+      - "9106:3306"
 
-kitab-php-fpm:
-  container_name: kitab-dev-php-fpm
-  links:
-    - kitab-mailhog
-    - kitab-mysql
+  kitab-nginx:
+    container_name: kitab-dev-nginx
+    ports:
+     - "9180:80"
+
+  kitab-php-fpm:
+    container_name: kitab-dev-php-fpm
+    links:
+      - kitab-mailhog
+      - kitab-mysql
