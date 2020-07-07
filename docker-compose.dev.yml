@@ -3,9 +3,10 @@
 ###############################################################################
 
 kitab-mailhog:
+  image: phpdockerio/mailhog:latest
   container_name: kitab-dev-mailhog
   ports:
-    - "9125:8025"
+    - "8125:8025"
 
 kitab-mysql:
   container_name: kitab-dev-mysql
@@ -21,4 +22,6 @@ kitab-nginx:
 
 kitab-php-fpm:
   container_name: kitab-dev-php-fpm
-
+  links:
+    - kitab-mailhog
+    - kitab-mysql

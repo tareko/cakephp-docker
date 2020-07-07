@@ -2,12 +2,6 @@
 #                          Generated on phpdocker.io                          #
 ###############################################################################
 
-kitab-mailhog:
-  image: phpdockerio/mailhog:latest
-  container_name: kitab-mailhog
-  ports:
-    - "8125:8025"
-
 kitab-mysql:
   image: mysql:5.7
   container_name: kitab-mysql
@@ -42,5 +36,4 @@ kitab-php-fpm:
     - ..:/var/www/kitab
     - ./php-fpm/php-ini-overrides.ini:/etc/php/7.1/fpm/conf.d/99-overrides.ini
   links:
-    - kitab-mailhog
     - kitab-mysql
