@@ -3,7 +3,7 @@
 ###############################################################################
 
 kitab-mailhog:
-  image: phpdockerio/mailhog:latest
+  image: mailhog/mailhog:latest
   container_name: kitab-dev-mailhog
   ports:
     - "8125:8025"
