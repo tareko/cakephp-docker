@@ -13,7 +13,7 @@ services:
     ports:
       - "9181:80"
     links:
-      - kitab-mysql
+      - kitab-mysql:db
 
   kitab-mysql:
     container_name: kitab-dev-mysql
