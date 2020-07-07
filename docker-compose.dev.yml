@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   kitab-mailhog:
-    image: phpdockerio/mailhog:latest
+    image: mailhog/mailhog:latest
     container_name: kitab-mailhog
     ports:
       - "8125:8025"
