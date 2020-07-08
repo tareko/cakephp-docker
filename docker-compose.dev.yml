@@ -7,7 +7,7 @@ services:
     ports:
       - "8125:8025"
 
- kitab-mongo:
+  kitab-mongo:
     volumes:
         - ../mongodb-dev:/data/db
         - ./mongo/dev:/docker-entrypoint-initdb.d
